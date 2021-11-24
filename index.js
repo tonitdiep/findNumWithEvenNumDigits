@@ -15,5 +15,18 @@ Therefore only 12 and 7896 contain an even number of digits.
  * @return {number}
  */
 var findNumbers = function(nums) {
-            
+    let arr = 0;
+    for (let i = 0; i < nums.length; i++){
+  
+        let arrEven = String(nums[i]);
+       
+        if(arrEven.length % 2 === 0)  arr++;
+                               
+                
+        }
+
+
+
+    return arr
+        
 };
